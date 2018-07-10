@@ -1,0 +1,28 @@
+body{
+  background-color: #F0F8FF;
+  font-family: Garamond, serif;
+  size: 20px;
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+#game {
+  display: none;
+}
+#topheader{
+  background-color:#95afd8;
+  color: black;
+  text-align: center;
+  size: 50spx;
+  font-family: Brushstroke, fantasy;
+
+}
+#navbar{
+  background-color:#5d7293;
+  size: 20px;
+  color: white;
+}
+#chessTips{
+  display: none;
+}
