@@ -3,10 +3,14 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <script src="javascript.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type= "text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type = "text/javascript"></script>
 </head>
 
 <div id = "Home">
-<h1 id="topheader">
+<h1 class="display-1" id="topheader">
 
   <b>
 The Queen's Gambit
@@ -14,18 +18,18 @@ The Queen's Gambit
 <p style = "font-size:30px;color:#247f93;">Camille's rando website</p>
 </b>
 
-  <img src="http://www.slate.com/content/dam/slate/articles/arts/gaming/2016/10/161013_GAME_chess-promo.jpg.CROP.promo-xlarge2.jpg" alt="Knights" width="590" height="421">
+  <img  src="http://www.slate.com/content/dam/slate/articles/arts/gaming/2016/10/161013_GAME_chess-promo.jpg.CROP.promo-xlarge2.jpg" alt="Knights on a chess board" max-width="590" height="410">
 
 </h1>
 
 <body>
   <nav id="navbar">
-    <button onclick="home()">Home</button>
-    <button onclick="chessTips()">Chess Tips</button>
-    <button onclick="game()">Game</button>
+    <button type="button" class="btn btn-primary" onclick="home()">Home</button>
+    <button type="button" class="btn btn-primary" onclick="chessTips()">Chess Tips</button>
+    <button type="button" class="btn btn-primary" onclick="game()">Practice</button>
   </nav>
 
-  <article>
+  <div class="media">
     <p>
       <b>
 Bio:
@@ -40,32 +44,56 @@ Bio:
       <a href="https://new.uschess.org/news/texas-womens-chess-championship/">news</a> on me.
       <br>
     </p>
-  </article>
+  </div>
 
   </body>
   </div>
   <div id = "game">
     <body>
-  <h1 id="topheader">Games</h1>
-<nav id="navbar">
-    <button onclick="home()">Home</button>
-    <button onclick="chessTips()">Chess Tips</button>
-    <button onclick="game()">Game</button>
-  </nav>
-<button onclick="buttonpress()">button</button>
 
-<image Id = "catphoto" src="https://yt3.ggpht.com/cE7hbI0Xt0JErmWtsv3AlZkmdwyQaHp49WGSJpgmZGX6woDbNP01En2yW8TBUp-LHD9dJKIvcZEr1Qrd3A=s900-mo-c-c0xffffffff-rj-k-no" width="250px" height = "250px">
+  <h1 id ="topheader">Practice</h1>
+  <nav id="navbar">
+    <button type="button" class="btn btn-primary" onclick="home()">Home</button>
+    <button type="button" class="btn btn-primary" onclick="chessTips()">Chess Tips</button>
+    <button type="button" class="btn btn-primary" onclick="game()">Practice</button>
+  </nav>
+  <h3/Tactics practice>
+  <iframe src="https://livetactics.chessbase.com" width="400" height="440"></iframe>
+
 </body>
   </div>
 <div id = "chessTips">
       <body>
   <h1 id="topheader">Chess Tips</h1>
-<nav id="navbar">
-    <button onclick="home()">Home</button>
-    <button onclick="chessTips()">Chess Tips</button>
-    <button onclick="game()">Game</button>
+  <nav id="navbar">
+    <button type="button" class="btn btn-primary" onclick="home()">Home</button>
+    <button type="button" class="btn btn-primary" onclick="chessTips()">Chess Tips</button>
+    <button type="button" class="btn btn-primary" onclick="game()">Practice</button>
   </nav>
-        OPENING PLAY
+<h3>Tournament Etiquette</h3>
+The person with black pieces is allowed to decide the chess timer placement
+<br>
+Shake hands before the start of the game
+<br>
+All tournaments use the "Touch Move" rule; if you touch a piece, you have to move it
+<br>
+If you are observing a game, do not distract the players. This includes:
+<ul><li>Standing too close</li>
+  <li>Talking</li>
+  <li>Giving hints or discussing the game near the players</li>
+</ul>
+Do not continuously offer draws
+<br>
+At the end of the game, shake hands with your opponent
+        <h3>Opening Play</h3>
+        <ul>Avoid moving the side pawns</ul>
+        <ul>Develop pieces towards the center</ul>
+        <ul>Avoid moving the same piece twice(unless needed)</ul>
+        <ul>Try to control more space</ul>
+        <h3>Middle Game Play</h3>
+        <ul>Use pawn breaks to gain space</ul>
+        <ul>Control the center</ul>
+        <ul>Attack</ul>
   </body>
    </div>
     <html>
